@@ -46,3 +46,6 @@ _deps
 
 out/build/
 [Bb][Uu][Ii][Ll][Dd]/
+configure.sh
+build.sh
+run.sh
