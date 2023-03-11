@@ -5,14 +5,16 @@
 int main(){
     int running = GL_TRUE;
 
+    GLFWwindow *window;
+
     // initialize GLFW
-    if( !glfwInit)
+    if( !glfwInit() )
     {
+        fprintf(stderr, "Failed to initialize GLFW\n");
         exit (EXIT_FAILURE);
     }
 
     // open an OpenGL window
-    GLFWwindow *window;
     window = glfwCreateWindow(300, 300, "Geares", NULL, NULL);
 
     if(!window){
