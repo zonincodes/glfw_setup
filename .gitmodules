@@ -1,3 +1,9 @@
 [submodule "external/glfw"]
 	path = external/glfw
 	url = https://github.com/zonincodes/glfw.git
+[submodule "external/linmath"]
+	path = external/linmath
+	url = https://github.com/zonincodes/linmath.h.git
+[submodule "external/glad"]
+	path = external/glad
+	url = https://github.com/zonincodes/glad_config.git
